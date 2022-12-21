@@ -26,7 +26,6 @@ async function onSubmit(e) {
       // fetchImg(searchQuery, page).then(renderGallery).catch(onError);
       const response = await axiosGet(searchQuery, page);
       renderGallery(response);
-      refs.loadMoreBtn.classList.remove('is-hidden');
     } else {
       onError();
     }
@@ -60,6 +59,7 @@ function renderGallery(images) {
   } else {
     // refs.gallery.innerHTML = '';
     refs.gallery.insertAdjacentHTML('beforeend', renderMarkUpCard(images));
+    refs.loadMoreBtn.classList.remove('is-hidden');
   }
 }
 
