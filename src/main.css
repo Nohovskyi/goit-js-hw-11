@@ -40,6 +40,7 @@ body {
 .wrap {
   position: relative;
   top: 65px;
+  padding-bottom: 15px;
 }
 
 .gallery {
@@ -59,6 +60,7 @@ body {
   padding-right: 5px;
   /* column-gap: 5px; */
   justify-content: space-between;
+
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 }
@@ -74,12 +76,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
-  margin-bottom: 15px;
-  background-color: rgb(74, 74, 207);
   padding: 10px;
   border-radius: 5px;
+
+  background-color: rgb(74, 74, 207);
   color: #fff;
-  border: 0px;
+  border: 1px rgb(74, 74, 207) solid;
 }
 
 .load-more:hover,
