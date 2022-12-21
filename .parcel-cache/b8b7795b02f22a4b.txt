@@ -94,7 +94,7 @@
 102C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\node-gyp-build-optional-packages\optional.js133158222631962791 0
 97C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\caniuse-lite\data\features\gyroscope.js133158222663694107 0
 109C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\caniuse-lite\data\features\contentsecuritypolicy.js133158222654775421 0
-49C:\Users\User\Documents\GitHub\goit-js-hw-11\dist133161137259807696 1
+49C:\Users\User\Documents\GitHub\goit-js-hw-11\dist133161140268546211 1
 57C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules133161104538507397 1
 113C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\posthtml-include\node_modules\posthtml-parser\readme.md133158222633430298 0
 99C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\transformer-posthtml\package.json133158222633590330 0
@@ -107,7 +107,7 @@
 62C:\Users\User\Documents\GitHub\goit-js-hw-11\package-lock.json133161104539277457 0
 79C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\node-releases\LICENSE133158222623624017 0
 95C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@nodelib\fs.scandir\out\settings.d.ts133158222641522655 0
-57C:\Users\User\Documents\GitHub\goit-js-hw-11\package.json133161104539297463 0
+57C:\Users\User\Documents\GitHub\goit-js-hw-11\package.json133161139908300412 0
 88C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\axios\lib\helpers\validator.js133161104265727607 0
 70C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\yaml\browser133158222647448478 1
 90C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\utils\src\http-server.js133158222642124045 0
@@ -2543,7 +2543,7 @@
 78C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\is-arrayish\index.js133158222632042831 0
 101C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\caniuse-lite\data\features\console-basic.js133158222654455337 0
 78C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\import-fresh\license133158222623624017 0
-67C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.14de0432.js133161137259677677 0
+67C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.14de0432.js133161140268330663 0
 103C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\caniuse-lite\data\features\urlsearchparams.js133158222676862489 0
 83C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\import-fresh\package.json133158222626110106 0
 90C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\cosmiconfig\dist\ExplorerSync.js133158222632362902 0
@@ -3116,7 +3116,7 @@
 94C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\cosmiconfig\dist\ExplorerBase.js.map133158222639936296 0
 92C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\cosmiconfig\dist\ExplorerSync.d.ts133158222644783237 0
 96C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\cosmiconfig\dist\ExplorerSync.d.ts.map133158222640176357 0
-71C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.14de0432.js.map133161137259757690 0
+71C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.14de0432.js.map133161140268480693 0
 102C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\caniuse-lite\data\features\variable-fonts.js133158222677022544 0
 94C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\cosmiconfig\dist\ExplorerSync.js.map133158222640496420 0
 88C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\transformer-js\LICENSE133158222624024107 0
@@ -4435,7 +4435,7 @@
 131C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked133158222654855426 1
 139C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\dist.js133158222641803991 0
 144C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\source-not-symlinked\package.json133158222654935446 0
-60C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.html133161136651810104 0
+60C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.html133161140268330663 0
 147C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo133158222654775421 1
 151C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\bar133158222654695380 1
 160C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\side-effects-package-redirect-up\foo\package.json133158222654775421 0
@@ -4905,10 +4905,10 @@
 69C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\.bin\terser133158222682026595 0
 73C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\.bin\terser.cmd133158222681946574 0
 73C:\Users\User\Documents\GitHub\goit-js-hw-11\node_modules\.bin\terser.ps1133158222681946574 0
-67C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.b354cf9f.js133161137259617691 0
-71C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.b354cf9f.js.map133161137259737713 0
-68C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.c7df44ae.css133161137259607712 0
-72C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.c7df44ae.css.map133161137259607712 0
+67C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.b354cf9f.js133161140268380652 0
+71C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.b354cf9f.js.map133161140268480693 0
+68C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.c7df44ae.css133161140268330663 0
+72C:\Users\User\Documents\GitHub\goit-js-hw-11\dist\index.c7df44ae.css.map133161140268330663 0
 77C:\Users\User\Documents\GitHub\goit-js-hw-11\assets\actions-config-step-1.png133155020208392249 0
 62C:\Users\User\Documents\GitHub\goit-js-hw-11\assets\status.png133155020208522259 0
 62C:\Users\User\Documents\GitHub\goit-js-hw-11\.github\workflows133158220338145214 1
