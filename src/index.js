@@ -75,19 +75,23 @@ function renderMarkUpCard(images) {
   const MarkUpCard = images.hits
     .map(item => {
       return `<div class="photo-card">
-  <img src="${item.webformatURL}" alt="${item.tags}" loading="lazy" />
+  <img src="${item.webformatURL}" alt="${item.tags}" loading="lazy" width=320/>
   <div class="info">
     <p class="info-item">
-      <b>Likes ${item.likes}</b>
+      <b>Likes</b>
+      <b>${item.likes}</b>
     </p>
     <p class="info-item">
-      <b>Views ${item.views}</b>
+      <b>Views</b>
+      <b>${item.views}</b>
     </p>
     <p class="info-item">
-      <b>Comments ${item.comments}</b>
+      <b>Comments</b>
+      <b>${item.comments}</b>
     </p>
     <p class="info-item">
-      <b>Downloads ${item.downloads}</b>
+      <b>Downloads</b>
+      <b>${item.downloads}</b>
     </p>
   </div>
 </div>`;
