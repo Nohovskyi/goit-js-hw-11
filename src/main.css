@@ -6,6 +6,10 @@ body {
   position: relative;
 }
 
+button {
+  cursor: pointer;
+}
+
 .search-block {
   position: fixed;
   z-index: 1;
@@ -31,15 +35,9 @@ body {
   margin-right: 5px;
 }
 
-.search-form > button {
-  border-radius: 50%;
-  border: 0px;
-  padding: 5px;
-}
-
 .wrap {
   position: relative;
-  top: 65px;
+  top: 70px;
   padding-bottom: 15px;
 }
 
@@ -93,4 +91,16 @@ body {
 
 .is-hidden {
   display: none;
+}
+
+.search-btn {
+  border: rgb(74, 74, 207) 1px solid;
+    border-radius: 50%;
+  padding: 5px;
+}
+
+.search-btn:hover,
+.search-btn:focus {
+  border: #fff 1px solid;
+  background-color: transparent;
 }
