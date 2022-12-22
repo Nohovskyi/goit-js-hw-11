@@ -1,6 +1,7 @@
-// import { fetchImg } from './fetch_img';
 import Notiflix from 'notiflix';
 import axiosGet from './fetch_img';
+import SimpleLightbox from 'simplelightbox';
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const refs = {
   form: document.querySelector('#search-form'),
@@ -13,6 +14,11 @@ refs.loadMoreBtn.addEventListener('click', loadMoreImages);
 
 let searchQuery = '';
 let page = 1;
+let lightbox = new SimpleLightbox('.photo-card a', {
+  captionsData: 'alt',
+  captionDelay: 250,
+  captions: true,
+});
 
 async function onSubmit(e) {
   try {
@@ -23,9 +29,9 @@ async function onSubmit(e) {
     page = 1;
 
     if (searchQuery !== '') {
-      // fetchImg(searchQuery, page).then(renderGallery).catch(onError);
       const response = await axiosGet(searchQuery, page);
       renderGallery(response);
+      lightbox.refresh();
     } else {
       onError();
     }
@@ -45,9 +51,8 @@ async function loadMoreImages() {
       refs.loadMoreBtn.classList.add('is-hidden');
       return overImages();
     }
-    // fetchImg(searchQuery, page).then(renderMoreImages).catch(onError);
-
     renderMoreImages(response);
+    lightbox.refresh();
   } catch {
     onError();
   }
@@ -57,7 +62,6 @@ function renderGallery(images) {
   if (images.total === 0) {
     onError();
   } else {
-    // refs.gallery.innerHTML = '';
     refs.gallery.insertAdjacentHTML('beforeend', renderMarkUpCard(images));
     refs.loadMoreBtn.classList.remove('is-hidden');
   }
@@ -75,7 +79,7 @@ function renderMarkUpCard(images) {
   const MarkUpCard = images.hits
     .map(item => {
       return `<div class="photo-card">
-  <img src="${item.webformatURL}" alt="${item.tags}" loading="lazy" width=320/>
+      <a href="${item.largeImageURL}"><img src="${item.webformatURL}" alt="${item.tags}" loading="lazy" width=320/></a>
   <div class="info">
     <p class="info-item">
       <b>Likes</b>

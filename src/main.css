@@ -50,7 +50,7 @@ body {
   justify-content: center;
 }
 
-.photo-card > img {
+.photo-card > a > img {
   height: 215px;
 }
 
